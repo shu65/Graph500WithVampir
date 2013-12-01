@@ -1,0 +1,32 @@
+mpirun -x OMP_NUM_THREADS=24 -x NCPUS=12 ./graph500_mpi_simple 24
+graph_generation:               17.311849 s
+construction_time:              80.870003 s
+Running BFS 0
+Time for BFS 0 is 6.136887
+Validating BFS 0
+================================================
+[Your accounting ID]
+ group id            : t2g-acls2012
+------------------------------------------------
+[Job informations]
+ job id              : 1252104.t2zpbs01
+ queue               : S
+ num of used node(s) : 4
+ used node(s) list   : 
+  t2a001064  t2a001065  t2a001066  t2a001067
+ used cpu(s)         : 48
+ walltime            : 00:18:47 (1127 sec)
+ used memory         : 36876620kb
+ job exit status     : 265
+------------------------------------------------
+[Accounting factors]
+ x 1.0 by group
+ x 1.0 by queue
+ x 1.0 by job priority
+ x 1.0 by job walltime extension
+ = 1.0 is the total accounting factor
+------------------------------------------------
+[Expense informations]
+ total consumed walltime        : 4508 sec
+ consumed budgets with this job : 12 yen
+================================================

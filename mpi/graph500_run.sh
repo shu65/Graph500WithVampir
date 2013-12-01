@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# sample jobscript
+MPIRUN_OPT=""
+MPIRUN_OPT+=" -x OMP_NUM_THREADS=24"
+MPIRUN_OPT+=" -x NCPUS=12"
+
+cd ${PBS_O_WORKDIR}
+COMMAND="mpirun $MPIRUN_OPT $PROG 14"
+echo $COMMAND
+$COMMAND
